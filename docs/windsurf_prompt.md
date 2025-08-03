@@ -17,7 +17,7 @@ For each factor F:
 Then evaluate combined effects `C_j(F1, F2, ..., Fn)` between factors.
 
 ## Required Features
-1. **Prompt Input** – UI for entering or selecting values for the ten factors.
+1. **Prompt Input** – UI for selecting values for the ten factors from limited presets to keep scenarios simple.
 2. **Generation** – Produce a text-only table of isolated impacts and combined effects using the algorithm.
 3. **Persistence** – Save prompts and generated stories to a durable store (local JSON or database).
 4. **News Log** – Each story is appended to a chronological log.
@@ -30,4 +30,5 @@ Then evaluate combined effects `C_j(F1, F2, ..., Fn)` between factors.
 - All interaction is textual; no images or video.
 - Use modern JavaScript/TypeScript with Next.js.
 - Include modular code for easy integration with other applications.
+- Present only small, curated option sets for each factor; the MCP agent uses these selections behind the scenes to craft cinematic worlds.
 
